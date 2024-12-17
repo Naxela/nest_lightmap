@@ -1,0 +1,12 @@
+[package]
+name = "nest_lightmap"
+version = "0.1.0"
+edition = "2021"
+description = "A plugin for Bevy w/Nest that interfaces lightmaps from The Lightmapper"
+license = "MIT"
+repository = "https://github.com/Naxela/nest_lightmap"
+
+[dependencies]
+bevy = "0.15.0"
+serde = { version = "1.0.215", features = ["derive"] }
+serde_json = "1.0.133"
